@@ -64,28 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
             limpar();
 
-//
-//            AlertDialog.Builder builder = new AlertDialog.Builder(context);
-//            builder.setTitle("Erro de login");
-//
-//            builder.setMessage(R.string.dus)
-//                    .setCancelable(false)
-//                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
-//                        @Override
-//                        public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                        }
-//                    })
-//                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-//                        @Override
-//                        public void onClick(DialogInterface dialogInterface, int i) {
-//                            getDialog().cancel();
-//                        }
-//                    });
-//
-//            Alerta alerta = new Alerta();
-//           alerta.showNow(getSupportFragmentManager(), null);
-
         }
     }
 }

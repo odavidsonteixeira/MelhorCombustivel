@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="telas.Tela2Activity">
+
+    <TextView
+        android:id="@+id/tVEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/eta" />
+
+    <EditText
+        android:id="@+id/eTEtanol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,LabelFor" />
+
+    <TextView
+        android:id="@+id/tVGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gas"
+        tools:text="@string/gas" />
+
+    <EditText
+        android:id="@+id/eTGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill,LabelFor" />
+
+    <TextView
+        android:id="@+id/tVResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/res"
+        tools:text="@string/res" />
+
+    <EditText
+        android:id="@+id/eTResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:editable="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="calcular"
+            android:text="@string/cal"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/bLimpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="limpar"
+            android:text="@string/lim"
+            tools:ignore="ButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

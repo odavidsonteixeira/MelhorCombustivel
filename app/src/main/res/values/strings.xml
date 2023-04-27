@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Etanol x Gasolina</string>
+    <string name="usuario">Usuário</string>
+    <string name="digusu">Digite o Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="logar">Logar</string>
+    <string name="limpar">Limpar</string>
+    <string name="digsen">Digite a senha</string>
+    <string name="eta">Qual o valor do Etanol?</string>
+    <string name="gas">Qual o valor da Gasolina?</string>
+    <string name="res">Resultado</string>
+    <string name="cal">Calcular</string>
+    <string name="lim">Limpar</string>
+    <string name="de">Digite o valor do etanol!</string>
+    <string name="dg">Digite o valor da gasolina!</string>
+    <string name="dus">Digite um usuário e senha válidos!</string>
+    <string name="notification">ATENÇÃ0!!!\n\nComo é um aplicativo para testes, foi colocado um
+    usuário e senha padrões.\n\nAmbos são:
+    \nUser: admin
+    \nPassword: admin</string>
+
+
+</resources>
